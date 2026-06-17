@@ -32,10 +32,10 @@ aliases:
 
 ## 课程仓库
 
-- [Computer Networking](subjects/computer-networking/index.md)
-- [Operating System](subjects/operating-system/README.md)
-- [Crypto Introduction](subjects/cryptography/README.md)
-- [CSAPP / Computer Systems](subjects/computer-systems/README.md)
+- [Computer Networking](https://github.com/infinitepwn/Computer_Networking/blob/main/index.md)
+- [Operating System](https://github.com/infinitepwn/operating_System/blob/main/README.md)
+- [Crypto Introduction](https://github.com/infinitepwn/crypto_introduction/blob/main/README.md)
+- [CSAPP / Computer Systems](https://github.com/infinitepwn/csapp/blob/main/README.md)
 
 ## 当前整理重点
 

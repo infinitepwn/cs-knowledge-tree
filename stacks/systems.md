@@ -18,7 +18,7 @@ aliases:
 - C/C++
 - 计算机组成
 - [计算机系统](../maps/computer-systems.md)
-- [操作系统](../subjects/operating-system/README.md)
+- [操作系统](https://github.com/infinitepwn/operating_System/blob/main/README.md)
 
 ## 核心主题
 

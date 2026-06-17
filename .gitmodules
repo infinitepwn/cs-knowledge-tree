@@ -1,12 +1,12 @@
 [submodule "subjects/computer-networking"]
 	path = subjects/computer-networking
-	url = /Users/infinite/Documents/Computer_Networking
+	url = https://github.com/infinitepwn/Computer_Networking.git
 [submodule "subjects/operating-system"]
 	path = subjects/operating-system
-	url = /Users/infinite/Documents/operating_System
+	url = https://github.com/infinitepwn/operating_System.git
 [submodule "subjects/cryptography"]
 	path = subjects/cryptography
-	url = /Users/infinite/Documents/crypto_introduction
+	url = https://github.com/infinitepwn/crypto_introduction.git
 [submodule "subjects/computer-systems"]
 	path = subjects/computer-systems
-	url = /Users/infinite/Documents/csapp
+	url = https://github.com/infinitepwn/csapp.git

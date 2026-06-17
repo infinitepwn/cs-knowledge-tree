@@ -34,6 +34,6 @@ aliases:
 
 ## 关联笔记
 
-- [中断](../subjects/operating-system/note/概述/中断.md)
-- [总线](../subjects/operating-system/note/概述/总线.md)
-- [输入输出](../subjects/operating-system/note/输入输出/输入输出(IO).md)
+- [中断](https://github.com/infinitepwn/operating_System/blob/main/note/概述/中断.md)
+- [总线](https://github.com/infinitepwn/operating_System/blob/main/note/概述/总线.md)
+- [输入输出](https://github.com/infinitepwn/operating_System/blob/main/note/输入输出/输入输出(IO).md)

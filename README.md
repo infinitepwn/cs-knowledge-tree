@@ -27,10 +27,10 @@ aliases:
 
 ## 已接入知识库
 
-- [计算机网络](subjects/computer-networking/index.md)
-- [操作系统](subjects/operating-system/README.md)
-- [密码学引论](subjects/cryptography/README.md)
-- [计算机系统原理](subjects/computer-systems/README.md)
+- [计算机网络](https://github.com/infinitepwn/Computer_Networking/blob/main/index.md)
+- [操作系统](https://github.com/infinitepwn/operating_System/blob/main/README.md)
+- [密码学引论](https://github.com/infinitepwn/crypto_introduction/blob/main/README.md)
+- [计算机系统原理](https://github.com/infinitepwn/csapp/blob/main/README.md)
 
 ## 使用方式
 
