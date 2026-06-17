@@ -17,8 +17,8 @@ aliases:
 
 - C/C++
 - 计算机组成
-- [[maps/computer-systems|计算机系统]]
-- [[subjects/operating-system/README|操作系统]]
+- [计算机系统](../maps/computer-systems.md)
+- [操作系统](../subjects/operating-system/README.md)
 
 ## 核心主题
 

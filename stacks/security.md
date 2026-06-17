@@ -16,9 +16,9 @@ aliases:
 
 ## 基础
 
-- [[maps/cybersecurity|密码学与安全]]
-- [[maps/networking|计算机网络]]
-- [[maps/computer-systems|计算机系统]]
+- [密码学与安全](../maps/cybersecurity.md)
+- [计算机网络](../maps/networking.md)
+- [计算机系统](../maps/computer-systems.md)
 
 ## 密码学
 

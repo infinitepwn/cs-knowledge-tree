@@ -18,24 +18,24 @@ aliases:
 
 ## 核心能力域
 
-- [[maps/computer-systems|计算机系统]]
-- [[maps/networking|计算机网络]]
-- [[maps/cybersecurity|密码学与安全]]
-- [[maps/programming|编程与工程实践]]
+- [计算机系统](maps/computer-systems.md)
+- [计算机网络](maps/networking.md)
+- [密码学与安全](maps/cybersecurity.md)
+- [编程与工程实践](maps/programming.md)
 
 ## 技术栈视角
 
-- [[stacks/systems|系统方向技术栈]]
-- [[stacks/security|安全方向技术栈]]
-- [[stacks/backend|后端方向技术栈]]
-- [[stacks/embedded|嵌入式方向技术栈]]
+- [系统方向技术栈](stacks/systems.md)
+- [安全方向技术栈](stacks/security.md)
+- [后端方向技术栈](stacks/backend.md)
+- [嵌入式方向技术栈](stacks/embedded.md)
 
 ## 课程仓库
 
-- [[subjects/computer-networking/index|Computer Networking]]
-- [[subjects/operating-system/README|Operating System]]
-- [[subjects/cryptography/README|Crypto Introduction]]
-- [[subjects/computer-systems/README|CSAPP / Computer Systems]]
+- [Computer Networking](subjects/computer-networking/index.md)
+- [Operating System](subjects/operating-system/README.md)
+- [Crypto Introduction](subjects/cryptography/README.md)
+- [CSAPP / Computer Systems](subjects/computer-systems/README.md)
 
 ## 当前整理重点
 

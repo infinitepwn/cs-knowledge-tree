@@ -18,19 +18,19 @@ aliases:
 
 ## 入口
 
-- [[index|知识树首页]]
-- [[roadmap|学习路线图]]
-- [[maps/computer-systems|计算机系统知识树]]
-- [[maps/networking|计算机网络知识树]]
-- [[maps/cybersecurity|密码学与安全知识树]]
-- [[maps/programming|编程与工程能力树]]
+- [知识树首页](index.md)
+- [学习路线图](roadmap.md)
+- [计算机系统知识树](maps/computer-systems.md)
+- [计算机网络知识树](maps/networking.md)
+- [密码学与安全知识树](maps/cybersecurity.md)
+- [编程与工程能力树](maps/programming.md)
 
 ## 已接入知识库
 
-- [[subjects/computer-networking/index|计算机网络]]
-- [[subjects/operating-system/README|操作系统]]
-- [[subjects/cryptography/README|密码学引论]]
-- [[subjects/computer-systems/README|计算机系统原理]]
+- [计算机网络](subjects/computer-networking/index.md)
+- [操作系统](subjects/operating-system/README.md)
+- [密码学引论](subjects/cryptography/README.md)
+- [计算机系统原理](subjects/computer-systems/README.md)
 
 ## 使用方式
 

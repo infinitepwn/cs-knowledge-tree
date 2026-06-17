@@ -34,6 +34,6 @@ aliases:
 
 ## 关联笔记
 
-- [[subjects/operating-system/note/概述/中断|中断]]
-- [[subjects/operating-system/note/概述/总线|总线]]
-- [[subjects/operating-system/note/输入输出/输入输出(IO)|输入输出]]
+- [中断](../subjects/operating-system/note/概述/中断.md)
+- [总线](../subjects/operating-system/note/概述/总线.md)
+- [输入输出](../subjects/operating-system/note/输入输出/输入输出(IO).md)

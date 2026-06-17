@@ -15,8 +15,8 @@ aliases:
 
 ## 计算机基础
 
-- [[maps/networking|计算机网络]]
-- [[maps/computer-systems|计算机系统]]
+- [计算机网络](../maps/networking.md)
+- [计算机系统](../maps/computer-systems.md)
 - 操作系统
 - 数据库
 

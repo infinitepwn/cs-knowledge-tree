@@ -18,31 +18,31 @@ aliases:
 
 目标：理解程序如何在机器上运行。
 
-- [[subjects/computer-systems/README|计算机系统原理]]
-- [[subjects/computer-systems/虚拟内存/virtual_memory|CSAPP 虚拟内存]]
-- [[subjects/operating-system/README|操作系统]]
-- [[subjects/operating-system/note/进程管理/进程/进程|进程]]
-- [[subjects/operating-system/note/内存管理/虚拟内存|操作系统虚拟内存]]
+- [计算机系统原理](subjects/computer-systems/README.md)
+- [CSAPP 虚拟内存](subjects/computer-systems/虚拟内存/virtual_memory.md)
+- [操作系统](subjects/operating-system/README.md)
+- [进程](subjects/operating-system/note/进程管理/进程/进程.md)
+- [操作系统虚拟内存](subjects/operating-system/note/内存管理/虚拟内存.md)
 
 ## 第二阶段：网络基础
 
 目标：理解主机之间如何通信，协议如何分层。
 
-- [[subjects/computer-networking/index|计算机网络]]
-- [[subjects/computer-networking/概述/概述|网络概述]]
-- [[subjects/computer-networking/网络层/IP数据报|IP 数据报]]
-- [[subjects/computer-networking/运输层/TCP协议|TCP 协议]]
-- [[subjects/computer-networking/应用层/HTTP|HTTP]]
+- [计算机网络](subjects/computer-networking/index.md)
+- [网络概述](subjects/computer-networking/概述/概述.md)
+- [IP 数据报](subjects/computer-networking/网络层/IP数据报.md)
+- [TCP 协议](subjects/computer-networking/运输层/TCP协议.md)
+- [HTTP](subjects/computer-networking/应用层/HTTP.md)
 
 ## 第三阶段：密码学与安全
 
 目标：理解加密、签名、认证和安全协议的基础。
 
-- [[subjects/cryptography/Mathematical-Foundations/费马小定理|费马小定理]]
-- [[subjects/cryptography/Public-key Encryption/公钥密码学|公钥密码学]]
-- [[subjects/cryptography/hash_function/SHA256|SHA256]]
-- [[subjects/cryptography/digital_signature/数字签名|数字签名]]
-- [[subjects/cryptography/key_distribution/public_key/Diffie-Hellman密钥交换协议|Diffie-Hellman 密钥交换]]
+- [费马小定理](subjects/cryptography/Mathematical-Foundations/费马小定理.md)
+- [公钥密码学](subjects/cryptography/Public-key Encryption/公钥密码学.md)
+- [SHA256](subjects/cryptography/hash_function/SHA256.md)
+- [数字签名](subjects/cryptography/digital_signature/数字签名.md)
+- [Diffie-Hellman 密钥交换](subjects/cryptography/key_distribution/public_key/Diffie-Hellman密钥交换协议.md)
 
 ## 第四阶段：工程整合
 
