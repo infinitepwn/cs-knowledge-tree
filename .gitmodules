@@ -1,0 +1,12 @@
+[submodule "subjects/computer-networking"]
+	path = subjects/computer-networking
+	url = /Users/infinite/Documents/Computer_Networking
+[submodule "subjects/operating-system"]
+	path = subjects/operating-system
+	url = /Users/infinite/Documents/operating_System
+[submodule "subjects/cryptography"]
+	path = subjects/cryptography
+	url = /Users/infinite/Documents/crypto_introduction
+[submodule "subjects/computer-systems"]
+	path = subjects/computer-systems
+	url = /Users/infinite/Documents/csapp
