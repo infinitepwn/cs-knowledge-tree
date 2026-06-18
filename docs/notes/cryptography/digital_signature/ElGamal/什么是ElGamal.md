@@ -15,10 +15,14 @@ $$
 x
 $$
 公钥为：
-$$y \equiv g^x \pmod p$$
+$$
+y \equiv g^x \pmod p
+$$
 所以公钥是：
 
-$$(p,g,y)$$
+$$
+(p,g,y)
+$$
 ### 签名过程
 
 假设消息为 (m)，一般先计算哈希：
@@ -28,18 +32,26 @@ H(m)
 $$
 签名者随机选一个临时随机数 (k)，要求：
 
-$$\gcd(k,p-1)=1$$
+$$
+\gcd(k,p-1)=1
+$$
 然后计算：
 
-$$r \equiv g^k \pmod p$$
+$$
+r \equiv g^k \pmod p
+$$
 
 再计算：
 
-$$s \equiv k^{-1}(H(m)-xr) \pmod{p-1}$$
+$$
+s \equiv k^{-1}(H(m)-xr) \pmod{p-1}
+$$
 
 最终签名为：
 
-$$(r,s)$$
+$$
+(r,s)
+$$
 
 ---
 
@@ -47,7 +59,9 @@ $$(r,s)$$
 
 验证者检查：
 
-$$g^{H(m)} \equiv y^r r^s \pmod p$$
+$$
+g^{H(m)} \equiv y^r r^s \pmod p
+$$
 
 如果等式成立，则签名有效。
 
@@ -57,9 +71,13 @@ $$g^{H(m)} \equiv y^r r^s \pmod p$$
 
 因为：
 
-$$y = g^x$$
+$$
+y = g^x
+$$
 
-$r = g^k$
+$$
+r = g^k
+$$
 
 所以：
 
@@ -75,18 +93,26 @@ $$y^r r^s
 
 又因为签名时：
 
-$s \equiv k^{-1}(H(m)-xr) \pmod{p-1}$
+$$
+s \equiv k^{-1}(H(m)-xr) \pmod{p-1}
+$$
 
 所以：
 
-$ks \equiv H(m)-xr \pmod{p-1}$
+$$
+ks \equiv H(m)-xr \pmod{p-1}
+$$
 
 因此：
 
-$$xr+ks \equiv H(m) \pmod{p-1}$$
+$$
+xr+ks \equiv H(m) \pmod{p-1}
+$$
 
 于是：
 
-$$g^{xr+ks} \equiv g^{H(m)} \pmod p$$
+$$
+g^{xr+ks} \equiv g^{H(m)} \pmod p
+$$
 
 所以验证公式成立。

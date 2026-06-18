@@ -295,7 +295,7 @@ print(b);   (Rb)     print(a);   (Ra)
 | **Multicore** | 单芯片多核处理器 |
 | **Hyperthreading** | 单核多线程（共享功能单元，复制寄存器） |
 | **False Sharing** | 不同线程访问同一 cache line 的不同元素导致的性能问题 |
-| **Amdahl's Law** | 加速比上限受串行部分比例限制：$S = 1/(s + (1-s)/p)$ |
+| **Amdahl's Law** | 加速比上限受串行部分比例限制：\(S = 1/(s + (1-s)/p)\) |
 | **Sequential Consistency** | 所有线程操作可等效为某种全局顺序交织的一致性模型 |
 | **Snoopy Cache** | 通过监听总线请求维护缓存一致性的协议（MSI/MESI等） |
 | **Task Queue** | 并行任务管理结构，用于动态分配和等待线程任务 |

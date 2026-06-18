@@ -14,16 +14,24 @@
 
 ## 参数选择
 选取两个素数p，q，满足
-$$p\equiv 3 \pmod 4$$
-$$q\equiv 3 \pmod 4$$
-公钥为$n=pq$
+$$
+p\equiv 3 \pmod 4
+$$
+$$
+q\equiv 3 \pmod 4
+$$
+公钥为\(n=pq\)
 ## 加密
 加密消息M，M< n
-$$C = M^2 \pmod n$$
+$$
+C = M^2 \pmod n
+$$
 ## 解密
 考虑模p的情况下
-[模平方根](../Mathematical-Foundations/模平方根.md#$p equiv 3 pmod 4$的情况)
-$$M = \pm C^{\frac{p+1}{4}} \pmod p$$
+[模平方根](../Mathematical-Foundations/模平方根.md#\(p equiv 3 pmod 4\)的情况)
+$$
+M = \pm C^{\frac{p+1}{4}} \pmod p
+$$
 模q的情况下
 
 ## 安全性
