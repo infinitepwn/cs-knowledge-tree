@@ -1,0 +1,9 @@
+# Needham-Schroeder协议
+
+> 来源：`密码学引论 / key_distribution/symmetry_key/Needham-Schroeder协议.md`
+
+Q:什么是Needham-Schroeder协议
+
+![image-20260519145250036](https://raw.githubusercontent.com/infinitepwn/note_picbed/main/image-20260519145250036.png)
+
+问题在于A不知道$N_2$,攻击者可以随便伪造一个$N_{2}^*$,因为$N_{2}$并没有什么明文上的含义，所以不管用什么密钥加密，A那边解密出来都是一个数字，没什么特殊的

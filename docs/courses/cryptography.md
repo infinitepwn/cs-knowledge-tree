@@ -3,7 +3,7 @@
 ## 入口
 
 - [GitHub 仓库](https://github.com/infinitepwn/crypto_introduction)
-- [笔记索引](https://github.com/infinitepwn/crypto_introduction/blob/main/index.md)
+- [站内笔记](../notes/cryptography/index.md)
 
 ## 知识范围
 

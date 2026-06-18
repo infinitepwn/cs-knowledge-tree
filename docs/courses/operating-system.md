@@ -3,7 +3,7 @@
 ## 入口
 
 - [GitHub 仓库](https://github.com/infinitepwn/operating_System)
-- [笔记索引](https://github.com/infinitepwn/operating_System/blob/main/index.md)
+- [站内笔记](../notes/operating-system/index.md)
 
 ## 知识范围
 

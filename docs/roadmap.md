@@ -4,31 +4,31 @@
 
 目标：理解程序如何在机器上运行。
 
-- [CSAPP / 计算机系统](https://github.com/infinitepwn/csapp)
-- [操作系统](https://github.com/infinitepwn/operating_System)
-- [进程](https://github.com/infinitepwn/operating_System/blob/main/note/进程管理/进程/进程.md)
-- [线程](https://github.com/infinitepwn/operating_System/blob/main/note/进程管理/线程/线程.md)
-- [虚拟内存](https://github.com/infinitepwn/operating_System/blob/main/note/内存管理/虚拟内存.md)
+- [CSAPP / 计算机系统](notes/computer-systems/index.md)
+- [操作系统](notes/operating-system/index.md)
+- [进程](notes/operating-system/note/进程管理/进程/进程.md)
+- [线程](notes/operating-system/note/进程管理/线程/线程.md)
+- [虚拟内存](notes/operating-system/note/内存管理/虚拟内存.md)
 
 ## 2. 网络基础
 
 目标：理解主机之间如何通信，协议如何分层。
 
-- [计算机网络索引](https://github.com/infinitepwn/Computer_Networking/blob/main/index.md)
-- [网络概述](https://github.com/infinitepwn/Computer_Networking/blob/main/概述/概述.md)
-- [IP 数据报](https://github.com/infinitepwn/Computer_Networking/blob/main/网络层/IP数据报.md)
-- [TCP 协议](https://github.com/infinitepwn/Computer_Networking/blob/main/运输层/TCP协议.md)
-- [HTTP](https://github.com/infinitepwn/Computer_Networking/blob/main/应用层/HTTP.md)
+- [计算机网络索引](notes/computer-networking/index.md)
+- [网络概述](notes/computer-networking/概述/概述.md)
+- [IP 数据报](notes/computer-networking/网络层/IP数据报.md)
+- [TCP 协议](notes/computer-networking/运输层/TCP协议.md)
+- [HTTP](notes/computer-networking/应用层/HTTP.md)
 
 ## 3. 密码学与安全
 
 目标：理解加密、签名、认证和安全协议。
 
-- [密码学引论索引](https://github.com/infinitepwn/crypto_introduction/blob/main/index.md)
-- [公钥密码学](https://github.com/infinitepwn/crypto_introduction/blob/main/Public-key%20Encryption/公钥密码学.md)
-- [SHA256](https://github.com/infinitepwn/crypto_introduction/blob/main/hash_function/SHA256.md)
-- [数字签名](https://github.com/infinitepwn/crypto_introduction/blob/main/digital_signature/数字签名.md)
-- [Diffie-Hellman 密钥交换](https://github.com/infinitepwn/crypto_introduction/blob/main/key_distribution/public_key/Diffie-Hellman密钥交换协议.md)
+- [密码学引论索引](notes/cryptography/index.md)
+- [公钥密码学](notes/cryptography/Public-key Encryption/公钥密码学.md)
+- [SHA256](notes/cryptography/hash_function/SHA256.md)
+- [数字签名](notes/cryptography/digital_signature/数字签名.md)
+- [Diffie-Hellman 密钥交换](notes/cryptography/key_distribution/public_key/Diffie-Hellman密钥交换协议.md)
 
 ## 4. 工程整合
 

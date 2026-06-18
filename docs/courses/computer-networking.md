@@ -3,7 +3,7 @@
 ## 入口
 
 - [GitHub 仓库](https://github.com/infinitepwn/Computer_Networking)
-- [笔记索引](https://github.com/infinitepwn/Computer_Networking/blob/main/index.md)
+- [站内笔记](../notes/computer-networking/index.md)
 
 ## 知识范围
 

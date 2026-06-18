@@ -5,7 +5,7 @@
 - C/C++
 - 计算机组成
 - [计算机系统](../knowledge/computer-systems.md)
-- [操作系统](https://github.com/infinitepwn/operating_System)
+- [操作系统](../notes/operating-system/index.md)
 
 ## 核心主题
 

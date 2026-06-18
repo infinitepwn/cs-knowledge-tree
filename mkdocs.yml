@@ -54,6 +54,12 @@ nav:
       - 操作系统: courses/operating-system.md
       - 密码学引论: courses/cryptography.md
       - 计算机系统原理: courses/computer-systems.md
+  - 课程笔记:
+      - 总览: notes/index.md
+      - 计算机网络: notes/computer-networking/index.md
+      - 操作系统: notes/operating-system/index.md
+      - 密码学引论: notes/cryptography/index.md
+      - 计算机系统原理: notes/computer-systems/index.md
 
 plugins:
   - search
