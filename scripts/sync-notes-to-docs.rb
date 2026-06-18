@@ -110,8 +110,9 @@ def display_math_lines(prefix, formula)
   body = strip_math_wrapper(formula)
   body_lines = body.lines
   body_lines = ["#{body}\n"] unless body.end_with?("\n")
+  spacer = prefix.empty? ? "\n" : "#{prefix.rstrip}\n"
 
-  ["#{prefix}\\[\n", *body_lines.map { |line| "#{prefix}#{line}" }, "#{prefix}\\]\n"]
+  [spacer, "#{prefix}$$\n", *body_lines.map { |line| "#{prefix}#{line}" }, "#{prefix}$$\n", spacer]
 end
 
 def normalize_math_blocks(text)
@@ -126,7 +127,7 @@ def normalize_math_blocks(text)
     in_fence = !in_fence if stripped.start_with?("```", "~~~")
 
     if in_display_math
-      if !in_fence && line =~ /\A\s*(?:>\s*)?(.*?)\$\$\s*\z/
+      if !in_fence && line =~ /\A\s*(?:>\s*)?(.*?)(?:\$\$|\\\])\s*\z/
         tail = Regexp.last_match(1).strip
         display_buffer << "#{tail}\n" unless tail.empty?
         output.concat(display_math_lines(display_prefix, display_buffer.join))
@@ -144,7 +145,16 @@ def normalize_math_blocks(text)
       prefix = Regexp.last_match(1)
       formula = Regexp.last_match(2)
       output.concat(display_math_lines(prefix, formula))
+    elsif !in_fence && line =~ /\A(\s*(?:>\s*)*)\\\[(.+?)\\\]\s*\z/
+      prefix = Regexp.last_match(1)
+      formula = Regexp.last_match(2)
+      output.concat(display_math_lines(prefix, formula))
     elsif !in_fence && line =~ /\A(\s*(?:>\s*)*)\$\$(.*?)\s*\z/
+      display_prefix = Regexp.last_match(1)
+      head = Regexp.last_match(2).strip
+      display_buffer << "#{head}\n" unless head.empty?
+      in_display_math = true
+    elsif !in_fence && line =~ /\A(\s*(?:>\s*)*)\\\[(.*?)\s*\z/
       display_prefix = Regexp.last_match(1)
       head = Regexp.last_match(2).strip
       display_buffer << "#{head}\n" unless head.empty?
@@ -155,6 +165,9 @@ def normalize_math_blocks(text)
       output.concat(display_math_lines(prefix, formula))
     else
       output << line.gsub(/(?<!\\)\$\$([^$\n]+?)\$\$/) do
+        inner = strip_math_wrapper(Regexp.last_match(1))
+        "\\(#{inner}\\)"
+      end.gsub(/\\\[(.+?)\\\]/) do
         inner = strip_math_wrapper(Regexp.last_match(1))
         "\\(#{inner}\\)"
       end.gsub(/(?<![\\$])\$([^$\n]+?)(?<![\\$])\$(?!\$)/) do
