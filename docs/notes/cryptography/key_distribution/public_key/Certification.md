@@ -4,9 +4,9 @@
 
 用户向证书颁发机构(Certificate Authority,CA)申请证书
 提供身份识别信息\(ID_A\),公钥\(Pk_A\)等信息
-$$
+\[
 C_A = (T||ID_A||pk_A,Sig_{sk_CA}(T||ID_A||pk_A))
-$$
+\]
 由公钥基础设施(PKI)管理和控制证书
 
 证书颁发

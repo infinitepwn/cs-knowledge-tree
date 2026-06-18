@@ -94,36 +94,78 @@ def convert_obsidian_links(text, name_map, current_dir)
   end
 end
 
+def strip_math_wrapper(formula)
+  stripped = formula.strip
+
+  if stripped.start_with?("\\(") && stripped.end_with?("\\)")
+    stripped[2..-3].strip
+  elsif stripped.start_with?("\\[") && stripped.end_with?("\\]")
+    stripped[2..-3].strip
+  else
+    stripped
+  end
+end
+
+def display_math_lines(prefix, formula)
+  body = strip_math_wrapper(formula)
+  body_lines = body.lines
+  body_lines = ["#{body}\n"] unless body.end_with?("\n")
+
+  ["#{prefix}\\[\n", *body_lines.map { |line| "#{prefix}#{line}" }, "#{prefix}\\]\n"]
+end
+
 def normalize_math_blocks(text)
   in_fence = false
+  in_display_math = false
+  display_prefix = +""
+  display_buffer = []
+  output = []
 
-  text.lines.flat_map do |line|
+  text.lines.each do |line|
     stripped = line.strip
     in_fence = !in_fence if stripped.start_with?("```", "~~~")
 
-    if !in_fence && line =~ /\A(\s*(?:>\s*)*)\$\$(.+)\$\$\s*\z/
+    if in_display_math
+      if !in_fence && line =~ /\A\s*(?:>\s*)?(.*?)\$\$\s*\z/
+        tail = Regexp.last_match(1).strip
+        display_buffer << "#{tail}\n" unless tail.empty?
+        output.concat(display_math_lines(display_prefix, display_buffer.join))
+        in_display_math = false
+        display_prefix = +""
+        display_buffer = []
+      else
+        content = line.sub(/\A#{Regexp.escape(display_prefix)}/, "")
+        display_buffer << content
+      end
+      next
+    end
+
+    if !in_fence && line =~ /\A(\s*(?:>\s*)*)\$\$(.+?)\$\$\s*\z/
       prefix = Regexp.last_match(1)
-      formula = Regexp.last_match(2).strip
-      formula = formula[2..-3].strip if formula.start_with?("\\(") && formula.end_with?("\\)")
-      ["#{prefix}$$\n", "#{prefix}#{formula}\n", "#{prefix}$$\n"]
+      formula = Regexp.last_match(2)
+      output.concat(display_math_lines(prefix, formula))
+    elsif !in_fence && line =~ /\A(\s*(?:>\s*)*)\$\$(.*?)\s*\z/
+      display_prefix = Regexp.last_match(1)
+      head = Regexp.last_match(2).strip
+      display_buffer << "#{head}\n" unless head.empty?
+      in_display_math = true
     elsif !in_fence && line =~ /\A(\s*(?:>\s*)*)\$([^$].*[^$])\$\s*\z/
       prefix = Regexp.last_match(1)
-      formula = Regexp.last_match(2).strip
-      formula = formula[2..-3].strip if formula.start_with?("\\(") && formula.end_with?("\\)")
-      ["#{prefix}$$\n", "#{prefix}#{formula}\n", "#{prefix}$$\n"]
+      formula = Regexp.last_match(2)
+      output.concat(display_math_lines(prefix, formula))
     else
-      line.gsub(/(?<!\\)\$\$([^$\n]+?)\$\$/) do
-        inner = Regexp.last_match(1).strip
-        inner = inner[2..-3].strip if inner.start_with?("\\(") && inner.end_with?("\\)")
+      output << line.gsub(/(?<!\\)\$\$([^$\n]+?)\$\$/) do
+        inner = strip_math_wrapper(Regexp.last_match(1))
         "\\(#{inner}\\)"
       end.gsub(/(?<![\\$])\$([^$\n]+?)(?<![\\$])\$(?!\$)/) do
-        inner = Regexp.last_match(1).strip
-        next "\\(#{inner}\\)" if inner.start_with?("\\(") && inner.end_with?("\\)")
-
+        inner = strip_math_wrapper(Regexp.last_match(1))
         "\\(#{inner}\\)"
       end
     end
-  end.join
+  end
+
+  output.concat(display_math_lines(display_prefix, display_buffer.join)) if in_display_math
+  output.join
 end
 
 FileUtils.rm_rf(NOTES)
