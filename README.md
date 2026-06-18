@@ -16,6 +16,28 @@ aliases:
 
 这是一个总知识仓库，用来把已有课程笔记组织成技术栈和知识树。
 
+## 文档站
+
+这个仓库现在使用 MkDocs Material 构建类似 `csdiy.wiki` 的独立文档站。
+
+- 站点源码：[`docs/`](docs/)
+- 站点配置：[`mkdocs.yml`](mkdocs.yml)
+- 自动部署：[`deploy-docs.yml`](.github/workflows/deploy-docs.yml)
+
+本地预览：
+
+```bash
+python3 -m venv .venv
+.venv/bin/python -m pip install -r requirements.txt
+.venv/bin/mkdocs serve
+```
+
+构建检查：
+
+```bash
+.venv/bin/mkdocs build --strict
+```
+
 ## 入口
 
 - [知识树首页](index.md)
