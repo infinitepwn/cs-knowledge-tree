@@ -19,8 +19,8 @@
 - [进程](../notes/operating-system/note/进程管理/进程/进程.md)
 - [线程](../notes/operating-system/note/进程管理/线程/线程.md)
 - [调度](../notes/operating-system/note/进程管理/调度/调度.md)
-- [同步](../notes/operating-system/note/进程管理/进程通信/同步.md)
-- [互斥](../notes/operating-system/note/进程管理/进程通信/互斥.md)
+- [进程同步](../notes/operating-system/note/进程管理/进程通信/进程同步.md)
+- [进程互斥](../notes/operating-system/note/进程管理/进程通信/进程互斥.md)
 
 ## 内存系统
 
