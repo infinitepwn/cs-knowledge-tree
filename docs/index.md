@@ -47,6 +47,27 @@
 - [Operating System](https://github.com/infinitepwn/operating_System)
 - [Crypto Introduction](https://github.com/infinitepwn/crypto_introduction)
 - [CSAPP / Computer Systems](https://github.com/infinitepwn/csapp)
+- [Algorithm](https://github.com/infinitepwn/Algorithm)
+- [Crypto Analyze](https://github.com/infinitepwn/crypto-analyze)
+- [Machine Learning](https://github.com/infinitepwn/Machine-learning)
+- [Cybersecurity](https://github.com/infinitepwn/Cybersecurity)
+- [Cybersecurity Lab](https://github.com/infinitepwn/Cybersecurity-lab)
+- [Finite Field](https://github.com/infinitepwn/finite_field)
+- [RAG](https://github.com/infinitepwn/RAG)
+
+## 已同步的课程笔记
+
+- [计算机网络](notes/computer-networking/index.md)
+- [操作系统](notes/operating-system/index.md)
+- [密码学引论](notes/cryptography/index.md)
+- [计算机系统原理](notes/computer-systems/index.md)
+- [算法设计与分析](notes/algorithm/index.md)
+- [密码分析学](notes/cryptanalysis/index.md)
+- [机器学习](notes/machine-learning/index.md)
+- [网络安全](notes/cybersecurity/index.md)
+- [网络安全实验](notes/cybersecurity-lab/index.md)
+- [有限域](notes/finite-field/index.md)
+- [RAG](notes/rag/index.md)
 
 ## 组织原则
 
