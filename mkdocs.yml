@@ -60,6 +60,13 @@ nav:
       - 操作系统: notes/operating-system/index.md
       - 密码学引论: notes/cryptography/index.md
       - 计算机系统原理: notes/computer-systems/index.md
+      - 算法设计与分析: notes/algorithm/index.md
+      - 密码分析学: notes/cryptanalysis/index.md
+      - 机器学习: notes/machine-learning/index.md
+      - 网络安全: notes/cybersecurity/index.md
+      - 网络安全实验: notes/cybersecurity-lab/index.md
+      - 有限域: notes/finite-field/index.md
+      - RAG: notes/rag/index.md
 
 plugins:
   - search

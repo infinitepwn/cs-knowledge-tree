@@ -8,10 +8,21 @@ HTTP（HyperText Transfer Protocol，超文本传输协议）用于在浏览器�
 
 默认端口号是 80，HTTP 使用 [TCP协议](../运输层/TCP协议.md) 提供可靠传输。
 
+## 版本
+HTTP/0.9,HTTP/1.0,HTTP/1.1
+![image.png](https://raw.githubusercontent.com/infinitepwn/note_picbed/main/20260618142733479.png)
+
+
 ## 报文类型
 
 - 请求报文：客户向服务器请求资源。
+![image.png](https://raw.githubusercontent.com/infinitepwn/note_picbed/main/20260618142831313.png)
+![image.png](https://raw.githubusercontent.com/infinitepwn/note_picbed/main/20260618143034762.png)
+![image.png](https://raw.githubusercontent.com/infinitepwn/note_picbed/main/20260618143240661.png)
+
 - 响应报文：服务器向客户返回状态和资源。
+![image.png](https://raw.githubusercontent.com/infinitepwn/note_picbed/main/20260618143559527.png)
+
 
 ## 常见方法
 
@@ -26,7 +37,8 @@ HTTP（HyperText Transfer Protocol，超文本传输协议）用于在浏览器�
 
 ## 状态码
 
-- 2xx：成功。
+- 1xx: 信息，服务器收到请求，需要请求者继续执行操作
+- 2xx: 成功
 - 3xx：重定向。
 - 4xx：客户端错误。
 - 5xx：服务器错误。

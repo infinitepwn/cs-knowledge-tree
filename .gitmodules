@@ -10,3 +10,24 @@
 [submodule "subjects/computer-systems"]
 	path = subjects/computer-systems
 	url = https://github.com/infinitepwn/csapp.git
+[submodule "subjects/algorithm"]
+	path = subjects/algorithm
+	url = https://github.com/infinitepwn/Algorithm.git
+[submodule "subjects/cryptanalysis"]
+	path = subjects/cryptanalysis
+	url = https://github.com/infinitepwn/crypto-analyze.git
+[submodule "subjects/machine-learning"]
+	path = subjects/machine-learning
+	url = https://github.com/infinitepwn/Machine-learning.git
+[submodule "subjects/cybersecurity"]
+	path = subjects/cybersecurity
+	url = https://github.com/infinitepwn/Cybersecurity.git
+[submodule "subjects/cybersecurity-lab"]
+	path = subjects/cybersecurity-lab
+	url = https://github.com/infinitepwn/Cybersecurity-lab.git
+[submodule "subjects/finite-field"]
+	path = subjects/finite-field
+	url = https://github.com/infinitepwn/finite_field.git
+[submodule "subjects/rag"]
+	path = subjects/rag
+	url = https://github.com/infinitepwn/RAG.git

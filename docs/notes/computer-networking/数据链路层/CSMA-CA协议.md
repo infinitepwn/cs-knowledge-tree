@@ -2,7 +2,8 @@
 
 > 来源：`计算机网络 / 数据链路层/CSMA-CA协议.md`
 
-## 待补充
+Carrier Sense Multiple Access with Collision Avoidance
+碰撞避免协议
 
 - 为什么无线网络使用碰撞避免
 - DIFS 和 SIFS

@@ -11,7 +11,7 @@
 
 ## Public-key Encryption
 
-- [Las Vegas算法](Public-key Encryption/Las Vegas算法.md)
+- [Las Vegas 算法](Public-key Encryption/Las Vegas算法.md)
 - [Rabin加密算法](Public-key Encryption/Rabin加密算法.md)
 - [SM2](Public-key Encryption/SM2.md)
 - [公钥密码学](Public-key Encryption/公钥密码学.md)
@@ -22,7 +22,7 @@
 
 ## digital_signature/DSA
 
-- [为什么要公布p和q的生成过程](digital_signature/DSA/为什么要公布p和q的生成过程.md)
+- [为什么要公布 p 和 q 的生成过程](digital_signature/DSA/为什么要公布p和q的生成过程.md)
 
 ## digital_signature/ElGamal
 
@@ -32,7 +32,7 @@
 ## digital_signature/Schnorr
 
 - [什么是Schnorr](digital_signature/Schnorr/什么是Schnorr.md)
-- [如果c=H(m)](digital_signature/Schnorr/如果c=H(m).md)
+- [如果 c = H(m)](digital_signature/Schnorr/如果c=H(m).md)
 
 ## digital_signature
 
@@ -65,7 +65,7 @@
 ## hash_function
 
 - [MD结构](hash_function/MD结构.md)
-- [SHA256](hash_function/SHA256.md)
+- [SHA-256](hash_function/SHA256.md)
 
 ## key_distribution/public_key
 
@@ -74,10 +74,10 @@
 
 ## key_distribution/symmetry_key
 
-- [Bellare-Rogaway协议](key_distribution/symmetry_key/Bellare-Rogaway协议.md)
-- [Denning-Sacco攻击](key_distribution/symmetry_key/Denning-Sacco攻击.md)
-- [Kerberos-V5](key_distribution/symmetry_key/Kerberos-V5.md)
-- [Needham-Schroeder协议](key_distribution/symmetry_key/Needham-Schroeder协议.md)
+- [Bellare-Rogaway 协议](key_distribution/symmetry_key/Bellare-Rogaway协议.md)
+- [Denning-Sacco 攻击](key_distribution/symmetry_key/Denning-Sacco攻击.md)
+- [Kerberos V5](key_distribution/symmetry_key/Kerberos-V5.md)
+- [Needham-Schroeder 协议](key_distribution/symmetry_key/Needham-Schroeder协议.md)
 
 ## zero_knowledge_proof
 
