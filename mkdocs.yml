@@ -54,6 +54,13 @@ nav:
       - 操作系统: courses/operating-system.md
       - 密码学引论: courses/cryptography.md
       - 计算机系统原理: courses/computer-systems.md
+      - 算法设计与分析: courses/algorithm.md
+      - 密码分析学: courses/cryptanalysis.md
+      - 机器学习: courses/machine-learning.md
+      - 网络安全: courses/cybersecurity.md
+      - 网络安全实验: courses/cybersecurity-lab.md
+      - 有限域: courses/finite-field.md
+      - RAG: courses/rag.md
   - 课程笔记:
       - 总览: notes/index.md
       - 计算机网络: notes/computer-networking/index.md

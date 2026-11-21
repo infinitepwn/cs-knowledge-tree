@@ -4,6 +4,7 @@
 
 - [计算机网络](../knowledge/networking.md)
 - [计算机系统](../knowledge/computer-systems.md)
+- [算法设计与分析](../notes/algorithm/index.md)
 - 操作系统
 - 数据库
 
@@ -16,6 +17,7 @@
 - 消息队列
 - 数据一致性
 - 可观测性
+- [RAG 应用](../notes/rag/index.md)
 
 ## 实践
 

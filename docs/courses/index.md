@@ -8,6 +8,13 @@
 | 操作系统 | 进程、内存、文件系统、I/O | [Wiki](../notes/operating-system/index.md) | [operating_System](https://github.com/infinitepwn/operating_System) |
 | 密码学引论 | 公钥密码、签名、哈希、零知识 | [Wiki](../notes/cryptography/index.md) | [crypto_introduction](https://github.com/infinitepwn/crypto_introduction) |
 | 计算机系统原理 | CSAPP、虚拟内存、并行 | [Wiki](../notes/computer-systems/index.md) | [csapp](https://github.com/infinitepwn/csapp) |
+| 算法设计与分析 | 分治、贪心、动态规划、排序 | [Wiki](../notes/algorithm/index.md) | [Algorithm](https://github.com/infinitepwn/Algorithm) |
+| 密码分析学 | 差分分析、线性分析、中间相遇、杂凑攻击 | [Wiki](../notes/cryptanalysis/index.md) | [crypto-analyze](https://github.com/infinitepwn/crypto-analyze) |
+| 机器学习 | 回归、分类、CNN、RNN、Transformer | [Wiki](../notes/machine-learning/index.md) | [Machine-learning](https://github.com/infinitepwn/Machine-learning) |
+| 网络安全 | 网络基础工具、安全实验 | [Wiki](../notes/cybersecurity/index.md) | [Cybersecurity](https://github.com/infinitepwn/Cybersecurity) |
+| 网络安全实验 | lab 系列实验 | [Wiki](../notes/cybersecurity-lab/index.md) | [Cybersecurity-lab](https://github.com/infinitepwn/Cybersecurity-lab) |
+| 有限域 | 抽象代数基础 | [Wiki](../notes/finite-field/index.md) | [finite_field](https://github.com/infinitepwn/finite_field) |
+| RAG | 检索增强生成 | [Wiki](../notes/rag/index.md) | [RAG](https://github.com/infinitepwn/RAG) |
 
 ## 维护规则
 
